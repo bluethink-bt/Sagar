@@ -1,0 +1,119 @@
+body{
+        margin: 25px;
+        background-color: rgb(240,240,240);
+        font-family: arial, sans-serif;
+        font-size: 14px;
+    }
+
+#head{
+        display: block;
+        text-align: center;
+        padding: 4px;
+        background-color: #34ebba;
+        border: 2px solid;
+        border-radius: 6px;
+     }
+
+#btn{
+        padding: 1px;
+        background-color: #ebc034;
+        border: 2px solid;
+        cursor: pointer;
+    }
+
+#main{
+        margin: 20px auto;
+     }
+
+#scs-msg{
+        background: #DEF1D8;
+        color: green;
+        padding: 10px;
+        margin: 10px;
+        display: none;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        }
+
+#err-msg{
+        background: #EFDCDD;
+        color: red;
+        padding: 10px;
+        margin: 10px;
+        display: none;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        }
+
+#modal{
+        background: rgba(0, 0, 0, 0.692);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        display: none;
+      }
+
+#modal-form{
+        padding: 6px;
+        background: rgb(218, 223, 224);
+        width: 35%;
+        height: 33%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 4px;
+           }    
+
+
+.edt{
+        background: #0a7ce7;
+        color: #fff;
+        border: 0px;
+        padding: 4px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+.dlt{
+        background: #f90404;
+        color: #fff;
+        border: 0px;
+        padding: 4px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+#esbmt{
+        background: #b1d1bf;
+        color: #000000;
+        padding: 3px 10px;
+        border: 1px solid;
+        cursor: pointer;
+        margin-left: 388px;
+      }
+
+#cross{
+        background: red;
+        color: white;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        cursor: pointer;
+      }
+
+.center{
+        margin-left: auto;
+        margin-right: auto;
+       }
